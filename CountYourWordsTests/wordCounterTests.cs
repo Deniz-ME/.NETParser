@@ -18,7 +18,7 @@ namespace CountYourWordsTests
 
         public void wordCountTest1()
         {
-            var input = new List<string> { "the", "fox", "the", "dog", "fox" };\
+            var input = new List<string> { "the", "fox", "the", "dog", "fox" };
             var result = _processor.CountWords(input);
 
             var expected = new Dictionary<string, int>
@@ -45,7 +45,7 @@ namespace CountYourWordsTests
         [TestMethod]
         public void wordCountTest2()
         {
-            var input = new List<string>{ "the", "cat","fox", "the", "dog", "fox", "fox", "fox", "fox", "fox", "fox", "fox" };\
+            var input = new List<string>{ "the", "cat","fox", "the", "dog", "fox", "fox", "fox", "fox", "fox", "fox", "fox" };
             var result = _processor.CountWords(input);
 
             var expected = new Dictionary<string, int>
