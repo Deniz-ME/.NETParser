@@ -33,8 +33,13 @@ namespace CountYourWords
         }
         internal List<string> RemoveEmptyWordsAndSpaces(List<string> input) 
         {
-            var result = new List<string> {};
-            return result;
+            var finalList = new List<string>();
+            foreach(var word in input){
+                if(!string.IsNullOrWhiteSpace(word)){
+                    finalList.Add(word);
+                }
+            }
+            return finalList;
         }
     }
 }
