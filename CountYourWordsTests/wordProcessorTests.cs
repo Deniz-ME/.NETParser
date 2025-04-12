@@ -41,5 +41,15 @@ namespace CountYourWordsTests
             var expected = new List<string> { "hello", "test" };
             CollectionAssert.AreEqual(expected, result);
         }
+
+         [TestMethod]
+        public void CleanText_TestForEveryPart()
+        {
+            string input = "Hello!! WORLD123 ##Test@ 2024;
+            var result = _processor.CleanText(input);
+
+            var expected = new List<string> { "hello", "world", "test" };
+            CollectionAssert.AreEqual(expected, result);
+        }
     }
 }
