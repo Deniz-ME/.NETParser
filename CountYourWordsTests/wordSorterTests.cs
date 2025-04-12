@@ -31,7 +31,7 @@ namespace CountYourWordsTests
                 new KeyValuePair<string, int>("pear", 1)
             };
             var result = _processor.SortingAlphabetically(wordDict);
-            Assert.AreEqual(expected, result);
+            CollectionAssert.AreEqual(expected, result);
         }
 
         [TestMethod]
@@ -53,7 +53,7 @@ namespace CountYourWordsTests
                 new KeyValuePair<string, int>("cactus", 4)
             };
             var result = _processor.SortingAlphabetically(wordDict);
-            Assert.AreEqual(expected, result);
+            CollectionAssert.AreEqual(expected, result);
         }
 
         [TestMethod]
@@ -77,7 +77,7 @@ namespace CountYourWordsTests
                 new KeyValuePair<string, int>("cactus", 4)
             };
             var result = _processor.SortingAlphabetically(wordDict);
-            Assert.AreEqual(expected, result);
+            CollectionAssert.AreEqual(expected, result);
         }
         [TestMethod]
         public void sortingTest4_With3thLetterDifferent()
@@ -100,7 +100,7 @@ namespace CountYourWordsTests
                 new KeyValuePair<string, int>("cactus", 4)
             };
             var result = _processor.SortingAlphabetically(wordDict);
-            Assert.AreEqual(expected, result);
+            CollectionAssert.AreEqual(expected, result);
         }
     }
 }
