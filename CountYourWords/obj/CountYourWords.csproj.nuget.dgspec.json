@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "/mnt/c/Users/deniz/Documents/BasicFitParserGithub/BasicFitParser/CountYourWords/CountYourWords.csproj": {}
+    "/mnt/c/Users/deniz/Documents/BasicFitParserGithub/BasicFitParser/CountYourWords/countYourWords.csproj": {}
   },
   "projects": {
-    "/mnt/c/Users/deniz/Documents/BasicFitParserGithub/BasicFitParser/CountYourWords/CountYourWords.csproj": {
+    "/mnt/c/Users/deniz/Documents/BasicFitParserGithub/BasicFitParser/CountYourWords/countYourWords.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/c/Users/deniz/Documents/BasicFitParserGithub/BasicFitParser/CountYourWords/CountYourWords.csproj",
-        "projectName": "CountYourWords",
-        "projectPath": "/mnt/c/Users/deniz/Documents/BasicFitParserGithub/BasicFitParser/CountYourWords/CountYourWords.csproj",
+        "projectUniqueName": "/mnt/c/Users/deniz/Documents/BasicFitParserGithub/BasicFitParser/CountYourWords/countYourWords.csproj",
+        "projectName": "countYourWords",
+        "projectPath": "/mnt/c/Users/deniz/Documents/BasicFitParserGithub/BasicFitParser/CountYourWords/countYourWords.csproj",
         "packagesPath": "/home/deniz/.nuget/packages/",
         "outputPath": "/mnt/c/Users/deniz/Documents/BasicFitParserGithub/BasicFitParser/CountYourWords/obj/",
         "projectStyle": "PackageReference",
