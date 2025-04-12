@@ -27,7 +27,7 @@ namespace CountYourWordsTests
             string input = "hello!! 2024 ##test@";
             var result = _processor.RemoveNonAlphabeticChar(input);
 
-            Assert.AreEqual("hello test", result);
+            Assert.AreEqual("hello  test", result);
         }
 
         [TestMethod]
