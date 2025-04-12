@@ -1,0 +1,15 @@
+/mnt/c/Users/deniz/Documents/BasicFitParserGithub/BasicFitParser/CountYourWords/bin/Debug/net6.0/CountYourWords
+/mnt/c/Users/deniz/Documents/BasicFitParserGithub/BasicFitParser/CountYourWords/bin/Debug/net6.0/CountYourWords.deps.json
+/mnt/c/Users/deniz/Documents/BasicFitParserGithub/BasicFitParser/CountYourWords/bin/Debug/net6.0/CountYourWords.runtimeconfig.json
+/mnt/c/Users/deniz/Documents/BasicFitParserGithub/BasicFitParser/CountYourWords/bin/Debug/net6.0/CountYourWords.dll
+/mnt/c/Users/deniz/Documents/BasicFitParserGithub/BasicFitParser/CountYourWords/bin/Debug/net6.0/CountYourWords.pdb
+/mnt/c/Users/deniz/Documents/BasicFitParserGithub/BasicFitParser/CountYourWords/obj/Debug/net6.0/CountYourWords.csproj.AssemblyReference.cache
+/mnt/c/Users/deniz/Documents/BasicFitParserGithub/BasicFitParser/CountYourWords/obj/Debug/net6.0/CountYourWords.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/c/Users/deniz/Documents/BasicFitParserGithub/BasicFitParser/CountYourWords/obj/Debug/net6.0/CountYourWords.AssemblyInfoInputs.cache
+/mnt/c/Users/deniz/Documents/BasicFitParserGithub/BasicFitParser/CountYourWords/obj/Debug/net6.0/CountYourWords.AssemblyInfo.cs
+/mnt/c/Users/deniz/Documents/BasicFitParserGithub/BasicFitParser/CountYourWords/obj/Debug/net6.0/CountYourWords.csproj.CoreCompileInputs.cache
+/mnt/c/Users/deniz/Documents/BasicFitParserGithub/BasicFitParser/CountYourWords/obj/Debug/net6.0/CountYourWords.dll
+/mnt/c/Users/deniz/Documents/BasicFitParserGithub/BasicFitParser/CountYourWords/obj/Debug/net6.0/refint/CountYourWords.dll
+/mnt/c/Users/deniz/Documents/BasicFitParserGithub/BasicFitParser/CountYourWords/obj/Debug/net6.0/CountYourWords.pdb
+/mnt/c/Users/deniz/Documents/BasicFitParserGithub/BasicFitParser/CountYourWords/obj/Debug/net6.0/CountYourWords.genruntimeconfig.cache
+/mnt/c/Users/deniz/Documents/BasicFitParserGithub/BasicFitParser/CountYourWords/obj/Debug/net6.0/ref/CountYourWords.dll

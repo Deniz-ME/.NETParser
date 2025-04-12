@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "LeUHYoibrVAgUXDXAINuBLydFZKrXopjJ93Dp2rv3rnGDVODkEPeyOQ2p/6AMgZDV+qJKZYJ9Urc1adczNRXCg==",
+  "success": true,
+  "projectFilePath": "/mnt/c/Users/deniz/Documents/BasicFitParserGithub/BasicFitParser/CountYourWordsTests/countYourWordsTests.csproj",
+  "expectedPackageFiles": [
+    "/home/deniz/.nuget/packages/microsoft.codecoverage/17.6.3/microsoft.codecoverage.17.6.3.nupkg.sha512",
+    "/home/deniz/.nuget/packages/microsoft.net.test.sdk/17.6.3/microsoft.net.test.sdk.17.6.3.nupkg.sha512",
+    "/home/deniz/.nuget/packages/microsoft.testplatform.objectmodel/17.6.3/microsoft.testplatform.objectmodel.17.6.3.nupkg.sha512",
+    "/home/deniz/.nuget/packages/microsoft.testplatform.testhost/17.6.3/microsoft.testplatform.testhost.17.6.3.nupkg.sha512",
+    "/home/deniz/.nuget/packages/mstest.testadapter/3.0.2/mstest.testadapter.3.0.2.nupkg.sha512",
+    "/home/deniz/.nuget/packages/mstest.testframework/3.0.2/mstest.testframework.3.0.2.nupkg.sha512",
+    "/home/deniz/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/home/deniz/.nuget/packages/nuget.frameworks/6.5.0/nuget.frameworks.6.5.0.nupkg.sha512",
+    "/home/deniz/.nuget/packages/system.reflection.metadata/1.6.0/system.reflection.metadata.1.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}
