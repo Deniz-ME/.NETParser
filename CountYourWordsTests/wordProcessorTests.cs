@@ -43,7 +43,7 @@ namespace CountYourWordsTests
         }
 
          [TestMethod]
-        public void CleanText_TestForEveryPart()
+        public void CleanText_TestForEveryPossibility()
         {
             string input = "Hello!! WORLD123 ##Test@ 2024;
             var result = _processor.CleanText(input);
