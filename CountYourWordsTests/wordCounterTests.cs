@@ -9,17 +9,17 @@ namespace CountYourWordsTests
     [TestClass]
     public class WordCounterTests
     {
-        private WordCounter _processor;
+        private WordCounter _counter;
 
         [TestInitialize]
-        public void Setup() => _processor = new WordCounter();
+        public void Setup() => _counter = new WordCounter();
 
         [TestMethod]
 
         public void wordCountTest1()
         {
             var input = new List<string> { "the", "fox", "the", "dog", "fox" };
-            var result = _processor.CountWords(input);
+            var result = _counter.CountWords(input);
 
             var expected = new Dictionary<string, int>
             {
@@ -36,7 +36,7 @@ namespace CountYourWordsTests
         public void emptyList()
         {
             var input = new List<string>();
-            var result = _processor.CountWords(input);
+            var result = _counter.CountWords(input);
 
             Assert.AreEqual(0, result.Count);
             
@@ -46,7 +46,7 @@ namespace CountYourWordsTests
         public void wordCountTest2()
         {
             var input = new List<string>{ "the", "cat","fox", "the", "dog", "fox", "fox", "fox", "fox", "fox", "fox", "fox" };
-            var result = _processor.CountWords(input);
+            var result = _counter.CountWords(input);
 
             var expected = new Dictionary<string, int>
             {
@@ -64,7 +64,7 @@ namespace CountYourWordsTests
         public void singleWord()
         {
             var input = new List<string>{"fox"};
-            var result = _processor.CountWords(input);
+            var result = _counter.CountWords(input);
 
             Assert.AreEqual(1, result["fox"]);
             Assert.AreEqual(1, result.Count);

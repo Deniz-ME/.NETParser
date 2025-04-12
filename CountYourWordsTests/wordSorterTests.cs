@@ -9,10 +9,10 @@ namespace CountYourWordsTests
     [TestClass]
     public class WordSorterTests
     {
-        private WordSorter _processor;
+        private WordSorter _sorter;
 
         [TestInitialize]
-        public void Setup() => _processor = new WordSorter();
+        public void Setup() => _sorter = new WordSorter();
 
         [TestMethod]
         public void sortingTest1()
@@ -30,7 +30,7 @@ namespace CountYourWordsTests
                 new KeyValuePair<string, int>("banana", 2),
                 new KeyValuePair<string, int>("pear", 1)
             };
-            var result = _processor.SortingAlphabetically(wordDict);
+            var result = _sorter.SortingAlphabetically(wordDict);
             CollectionAssert.AreEqual(expected, result);
         }
 
@@ -52,7 +52,7 @@ namespace CountYourWordsTests
                 new KeyValuePair<string, int>("beat", 5),
                 new KeyValuePair<string, int>("cactus", 4)
             };
-            var result = _processor.SortingAlphabetically(wordDict);
+            var result = _sorter.SortingAlphabetically(wordDict);
             CollectionAssert.AreEqual(expected, result);
         }
 
@@ -76,7 +76,7 @@ namespace CountYourWordsTests
                 new KeyValuePair<string, int>("beat", 5),
                 new KeyValuePair<string, int>("cactus", 4)
             };
-            var result = _processor.SortingAlphabetically(wordDict);
+            var result = _sorter.SortingAlphabetically(wordDict);
             CollectionAssert.AreEqual(expected, result);
         }
         [TestMethod]
@@ -99,7 +99,7 @@ namespace CountYourWordsTests
                 new KeyValuePair<string, int>("beat", 5),
                 new KeyValuePair<string, int>("cactus", 4)
             };
-            var result = _processor.SortingAlphabetically(wordDict);
+            var result = _sorter.SortingAlphabetically(wordDict);
             CollectionAssert.AreEqual(expected, result);
         }
     }
