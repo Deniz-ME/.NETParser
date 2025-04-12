@@ -8,8 +8,8 @@ namespace CountYourWords
     {
         public List<string> CleanText(string input)
         {
-            var result = new List<string>();
-            return result;
+            
+            
         }
     }
 }
