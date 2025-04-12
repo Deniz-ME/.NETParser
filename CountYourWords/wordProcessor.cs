@@ -28,7 +28,7 @@ namespace CountYourWords
         }
         internal List<string> SplitStringIntoList(string input) 
         {
-            var listWords = new List<string>(input.Split(" " , StringSplitOptions.RemoveEmptyEntries));
+            var listWords = new List<string>(input.Split((char[])null, StringSplitOptions.RemoveEmptyEntries));
             return listWords;
         }
         internal List<string> RemoveEmptyWordsAndSpaces(List<string> input) 
