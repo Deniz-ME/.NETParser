@@ -21,7 +21,8 @@ namespace CountYourWords
         }
         internal string RemoveNonAlphabeticChar(string input) 
         {
-            return "";
+            var result = Regex.Replace(input,@"[^a-zA-Z\s]", "");
+            return result;
         }
         internal List<string> SplitStringIntoList(string input) 
         {
