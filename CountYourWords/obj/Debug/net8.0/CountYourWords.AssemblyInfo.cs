@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CountYourWords")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8aa839587f5734ee84ca8c15f1e390b81670dd17")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b21a10d4eb03d4bef4760b6735be38c504eaf1d")]
 [assembly: System.Reflection.AssemblyProductAttribute("CountYourWords")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CountYourWords")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
