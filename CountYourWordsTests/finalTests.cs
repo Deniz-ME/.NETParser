@@ -13,8 +13,7 @@ namespace CountYourWordsTests
         public void TestFullProgramOutput()
         {
 
-            var inputText = "The big brown fox number 4 jumped over the lazy dog. " +
-                            "THE BIG BROWN FOX JUMPED OVER THE LAZY DOG. The Big Brown Fox 123 !!";
+            var inputText = "The big brown fox number 4 jumped over the lazy dog. THE BIG BROWN FOX JUMPED OVER THE LAZY DOG. The Big Brown Fox 123 !!";
             var filePath = "test_input.txt";
             File.WriteAllText(filePath, inputText);
 
