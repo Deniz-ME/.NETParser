@@ -4,7 +4,7 @@ using System.Text.RegularExpressions;
 using System.Runtime.CompilerServices;
 namespace CountYourWords
 {
-    public class WordSorter
+    public class WordSorter : IWordSorter
     {
         public List<KeyValuePair<string, int>> SortingAlphabetically(Dictionary<string, int> input)
         {

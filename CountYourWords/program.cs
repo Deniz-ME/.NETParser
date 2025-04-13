@@ -4,11 +4,14 @@ using System.Collections.Generic;
 
 namespace CountYourWords
 {
-    class Program
-    {
-        static void Main(string[] args)
+    class Program(IWordProcessor processor, IWordCounter counter, IWordSorter sorter)
+    {   
+        private readonly IWordProcessor _processor = processor;
+        private readonly IWordCounter _counter = counter;
+        private readonly IWordSorter _sorter = sorter;
+
+        public void Run(string filePath)
         {
-            string filePath = "CountYourWords/input.txt";
             if (!File.Exists(filePath))
             {
                 Console.WriteLine("input.txt not found.");
@@ -17,20 +20,24 @@ namespace CountYourWords
 
             string textOutOfFile = File.ReadAllText(filePath);
             
-            var processor = new WordProcessor();
-            var onlyWords = processor.CleanText(textOutOfFile);
-  
-            var counter = new WordCounter();
-            var wordCounts = counter.CountWords(onlyWords);
-
-            var sorter = new WordSorter();
-            var sortedWords = sorter.SortingAlphabetically(wordCounts);
+            var onlyWords = _processor.CleanText(textOutOfFile);
+            var wordCounts = _counter.CountWords(onlyWords);
+            var sortedWords = _sorter.SortingAlphabetically(wordCounts);
 
             Console.WriteLine($"\nNumber of words: {onlyWords.Count}\n");
             foreach (var pair in sortedWords)
             {
                 Console.WriteLine($"{pair.Key} {pair.Value}");
             }
+        }
+        static void Main(string[] args)
+        {
+            var processor = new WordProcessor();
+            var counter = new WordCounter();
+            var sorter = new WordSorter();
+
+            var parser = new Program(processor, counter, sorter);
+            parser.Run("CountYourWords/input.txt");
         }
     }
 }

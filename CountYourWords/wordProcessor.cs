@@ -6,7 +6,7 @@ using System.Runtime.CompilerServices;
 
 namespace CountYourWords
 {
-    public class WordProcessor
+    public class WordProcessor : IWordProcessor
     {
         public List<string> CleanText(string input)
         {

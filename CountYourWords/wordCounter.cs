@@ -4,7 +4,7 @@ using System.Text.RegularExpressions;
 using System.Runtime.CompilerServices;
 namespace CountYourWords
 {
-    public class WordCounter
+    public class WordCounter : IWordCounter
     {
         public Dictionary<string, int> CountWords(List<string> input)
         {
