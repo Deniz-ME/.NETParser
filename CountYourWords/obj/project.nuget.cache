@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "bYNxXSUgCghTG8r55Jdp7GCB4eHpZ9cXTZOew0jCWAsAvio5b8eqJVjDkw4k9Lzq/v2i8d4OMhoA1weA8DXdlA==",
+  "dgSpecHash": "rGj+GsrA+Z8=",
   "success": true,
-  "projectFilePath": "/mnt/c/Users/deniz/Documents/BasicFitParserGithub/BasicFitParser/CountYourWords/CountYourWords.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\deniz\\Documents\\.NETParser\\CountYourWords\\CountYourWords.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\deniz\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.15\\microsoft.netcore.app.ref.8.0.15.nupkg.sha512",
+    "C:\\Users\\deniz\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.15\\microsoft.windowsdesktop.app.ref.8.0.15.nupkg.sha512",
+    "C:\\Users\\deniz\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.15\\microsoft.aspnetcore.app.ref.8.0.15.nupkg.sha512",
+    "C:\\Users\\deniz\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.15\\microsoft.netcore.app.host.win-x64.8.0.15.nupkg.sha512"
+  ],
   "logs": []
 }

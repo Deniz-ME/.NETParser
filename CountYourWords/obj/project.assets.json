@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/home/deniz/.nuget/packages/": {}
+    "C:\\Users\\deniz\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/mnt/c/Users/deniz/Documents/BasicFitParserGithub/BasicFitParser/CountYourWords/CountYourWords.csproj",
+      "projectUniqueName": "C:\\Users\\deniz\\Documents\\.NETParser\\CountYourWords\\CountYourWords.csproj",
       "projectName": "CountYourWords",
-      "projectPath": "/mnt/c/Users/deniz/Documents/BasicFitParserGithub/BasicFitParser/CountYourWords/CountYourWords.csproj",
-      "packagesPath": "/home/deniz/.nuget/packages/",
-      "outputPath": "/mnt/c/Users/deniz/Documents/BasicFitParserGithub/BasicFitParser/CountYourWords/obj/",
+      "projectPath": "C:\\Users\\deniz\\Documents\\.NETParser\\CountYourWords\\CountYourWords.csproj",
+      "packagesPath": "C:\\Users\\deniz\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\deniz\\Documents\\.NETParser\\CountYourWords\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/deniz/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\deniz\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -38,7 +38,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -54,12 +60,30 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.15, 8.0.15]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[8.0.15, 8.0.15]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.15, 8.0.15]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[8.0.15, 8.0.15]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.115/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
