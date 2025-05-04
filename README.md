@@ -1,2 +1,2 @@
-# BasicFitParser
-This is a parser done for the assesment of Basic fit.
+# SentenceParser
+This is a Sentence Parser, which makes use of TDD/Testing and SOLID principles. Done in C# and .NET 8.
